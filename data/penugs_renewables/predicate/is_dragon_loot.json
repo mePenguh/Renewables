@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": {
+            "Item":{
+                "components": {
+                    "minecraft:custom_data": {
+                        "penugs_renewables.dragon_loot": true
+                    }
+                }
+            }
+        }
+    }
+}

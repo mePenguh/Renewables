@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "penugs_renewables:suspicious_sand"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_gold_nugget": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_nugget"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_gold_nugget"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "penugs_renewables:suspicious_sand"
+        ]
+    }
+}

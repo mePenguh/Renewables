@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "description": "No more unrenewable items!!!",
+    "min_format": 88,
+    "max_format": 94
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 94,
+        "directory": "OVERLAY_1_21_11",
+      }
+    ]
+  }
+}

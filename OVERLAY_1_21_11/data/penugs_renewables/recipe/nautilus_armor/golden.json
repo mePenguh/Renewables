@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": "minecraft:gold_ingot",
+        "B": "minecraft:leather"
+    },
+    "pattern": [
+        " AA",
+        " BA",
+        "AAA"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:golden_nautilus_armor"
+    }
+}

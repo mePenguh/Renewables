@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "A": "minecraft:diorite",
+        "B": "minecraft:bone"
+    },
+    "pattern": [
+        "AB",
+        "BA"
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:calcite"
+    }
+}

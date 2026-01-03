@@ -1,0 +1,1 @@
+scoreboard objectives add penugs_renewables.summoned_dragon dummy

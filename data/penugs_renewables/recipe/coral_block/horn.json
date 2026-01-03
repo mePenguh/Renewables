@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "penugs_renewables.coral_block",
+    "category": "building",
+    "key": {
+        "A": [
+            "minecraft:horn_coral",
+            "minecraft:horn_coral_fan"
+        ]
+    },
+    "pattern": [
+        "AA",
+        "AA"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:horn_coral_block"
+    }
+}

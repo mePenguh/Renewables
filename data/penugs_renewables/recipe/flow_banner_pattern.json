@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:paper",
+        "minecraft:trial_key"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:flow_banner_pattern"
+    }
+}

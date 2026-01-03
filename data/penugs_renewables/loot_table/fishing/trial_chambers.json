@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "weight": 2,
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "add": true,
+                            "enchantments": {
+                                "wind_burst": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "weight": 3,
+                    "type": "minecraft:item",
+                    "name": "minecraft:heavy_core"
+                },
+                {
+                    "weight": 2,
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_precipice"
+                },
+                {
+                    "weight": 2,
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_creator"
+                },
+                {
+                    "weight": 2,
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_creator_music_box"
+                }
+            ]
+        }
+    ]
+}

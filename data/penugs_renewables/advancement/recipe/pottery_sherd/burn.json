@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "penugs_renewables:pottery_sherd/burn"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_burn_pottery_sherd": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:burn_pottery_sherd"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_burn_pottery_sherd"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "penugs_renewables:pottery_sherd/burn"
+        ]
+    }
+}

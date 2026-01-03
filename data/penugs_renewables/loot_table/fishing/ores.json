@@ -1,0 +1,363 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1.0,
+                                "entries": [
+                                    {
+                                        "weight": 7,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:copper_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": true,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 3
+                                                },
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:location_check",
+                                                        "predicate": {
+                                                            "biomes": "minecraft:dripstone_caves"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 6,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 2,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:gold_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": true,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 3
+                                                },
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:location_check",
+                                                        "predicate": {
+                                                            "biomes": "#minecraft:is_badlands"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 7,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:coal_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 3,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:lapis_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 2,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:redstone_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 1,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:emerald_ore",
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biomes": "#penugs_renewables:has_emerald_ore"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 1,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_ore"
+                                    }
+                                    
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "position": {
+                            "y": {
+                                "max": 60,
+                                "min": 1
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1.0,
+                                "entries": [
+                                    {
+                                        "weight": 2,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_copper_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": true,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 3
+                                                },
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:location_check",
+                                                        "predicate": {
+                                                            "biomes": "minecraft:dripstone_caves"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 6,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_iron_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 4,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_gold_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": true,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 3
+                                                },
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:location_check",
+                                                        "predicate": {
+                                                            "biomes": "#minecraft:is_badlands"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 1,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_coal_ore"
+                                    },
+                                    {
+                                        "weight": 4,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_lapis_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 7,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_redstone_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 1,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_emerald_ore",
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biomes": "#penugs_renewables:has_emerald_ore"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 4,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate_diamond_ore",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "add": false,
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    }
+                                    
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "position": {
+                            "y": {
+                                "max": 0,
+                                "min": -64
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
