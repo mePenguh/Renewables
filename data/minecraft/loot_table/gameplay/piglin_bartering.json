@@ -274,50 +274,17 @@
             }
           ],
           "name": "minecraft:gilded_blackstone",
-          "weight": 30,
-          "conditions": [
-            {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structures": "minecraft:bastion_remnant"
-                }
-              }
-            }
-          ]
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_pigstep",
-          "weight": 3,
-          "conditions": [
-            {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structures": "minecraft:bastion_remnant"
-                }
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
-          "weight": 1,
-          "conditions": [
-            {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structures": "minecraft:bastion_remnant"
-                }
-              }
-            }
-          ]
+          "weight": 1
         }
       ],
       "rolls": 1.0
