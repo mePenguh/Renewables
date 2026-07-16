@@ -1,0 +1,53 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "coal_ore",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "gold_ore",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "emerald_ore",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "iron_ore",
+                    "weight": 4
+                },
+
+
+                {
+                    "type": "item",
+                    "name": "coal",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "raw_gold",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "emerald",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "raw_iron",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

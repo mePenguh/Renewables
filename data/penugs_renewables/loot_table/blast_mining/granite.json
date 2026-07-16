@@ -1,0 +1,50 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "coal_ore",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "copper_ore",
+                    "weight": 16
+                },
+                {
+                    "type": "item",
+                    "name": "redstone_ore",
+                    "weight": 8
+                },
+
+
+                {
+                    "type": "item",
+                    "name": "coal",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "raw_copper",
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "redstone",
+                    "weight": 4
+                },
+
+
+                {
+                    "type": "item",
+                    "name": "raw_copper_block",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

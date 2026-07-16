@@ -1,0 +1,31 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nether_quartz_ore",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
+                    ]
+                },
+
+
+                {
+                    "type": "item",
+                    "name": "quartz",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

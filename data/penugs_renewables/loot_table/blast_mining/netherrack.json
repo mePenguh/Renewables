@@ -1,0 +1,33 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nether_quartz_ore",
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "nether_gold_ore",
+                    "weight": 4
+                },
+
+
+                {
+                    "type": "item",
+                    "name": "quartz",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "gold_nugget",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}
